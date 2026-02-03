@@ -1,13 +1,18 @@
-# from math import factorial
+# 1-ое решение с модулем Math
 
-# print('Сумма факториалов ❗')
-# n = int(input())
-# total = 0
+from math import factorial
 
-# for i in range(1, n + 1):
-#     total += factorial(i)
+print('Сумма факториалов ❗')
 
-# print(total)
+n = int(input())
+total = 0
+
+for i in range(1, n + 1):
+    total += factorial(i)
+
+print(total)
+
+# 2-ое Решение c вложенными циклами
 
 print('Сумма факториалов ❗')
 
@@ -21,7 +26,7 @@ for i in range(1, n + 1):
     for f in range(count, i + 1):
         factorial *= i
         count += 1
-
+        
     total += factorial
 
 print(total)
