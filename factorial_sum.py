@@ -1,4 +1,4 @@
-Ссылка на Задачу: [Сумма факториалов!](https://stepik.org/lesson/298796/step/4?unit=280623)
+Ссылка на Задачу: https://stepik.org/lesson/298796/step/4?unit=280623
 
 # 1-ое решение с модулем Math
 
